@@ -32,7 +32,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 50px 160px;
 }
 nav h2 {
     font-weight: black;
@@ -50,4 +50,31 @@ nav h2 {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
+ }
+
+ /* main style */
+ .first-article{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 160px 116px 140px;
+ }
+ .first-article-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #252432;
+ }
+ .first-article-description{
+    font-size: 24px;
+    line-height: 30px;
+    color: #2524327f;
+ }
+ .first-article-container{
+    padding-right: 20px;
+    margin-bottom: 40px;
+ }
+ .photo img{
+    border-radius: 48px;
  }
