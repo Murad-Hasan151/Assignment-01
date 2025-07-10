@@ -53,12 +53,15 @@ nav h2 {
  }
 
  /* main style */
+ main {
+    margin: 116px 160px 116px 140px ;
+ }
  .first-article{
     display: flex;
     gap: 200px;
     justify-content: space-between;
     align-items: center;
-    margin: 116px 160px 116px 140px;
+    margin-bottom: 116px;
  }
  .first-article-title{
     font-weight: bold;
@@ -78,3 +81,34 @@ nav h2 {
  .photo img{
     border-radius: 48px;
  }
+  /* 2nd section */
+  .box-ola {
+    background-color: #4d47ff18;
+    border-radius: 24px;
+    padding: 50px 80px;
+  }
+  .box-ola h4 {
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    color: #252432;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .box-model{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box h3{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+  .box p {
+    font-size: 20px;
+    color: #00000077;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
