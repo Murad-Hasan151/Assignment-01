@@ -207,3 +207,29 @@ form textarea {
    width: 562px;
    height: 62px;
 }
+
+/* footer start */
+footer {
+   text-align: center;
+   background-color: #FFFFFF;
+   padding-top: 20px;
+   padding-bottom: 100px;
+}
+.futar-title {
+   font-weight: black;
+   font-size: 100px;
+   color: #4E47FF;
+   margin-bottom: 0;
+}
+.futar-description {
+   color: #8987A1;
+   font-size: 18px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+footer a {
+   text-decoration: none;
+   color: #8987A1;
+   margin-right: 48px;
+   font-weight: 500;
+}
