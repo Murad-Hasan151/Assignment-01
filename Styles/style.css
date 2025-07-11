@@ -21,12 +21,13 @@
 }
 body{
     margin: 0;
+    background-color: #F5F8FF;
 }
 
 /* nav style */
 header {
     background-image: url(../Assets/Hero-bg.png);
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 } 
 nav{
     display: flex;
@@ -76,39 +77,97 @@ nav h2 {
  }
  .first-article-container{
     padding-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
  }
  .photo img{
     border-radius: 48px;
  }
   /* 2nd section */
-  .box-ola {
+.box-ola {
     background-color: #4d47ff18;
     border-radius: 24px;
     padding: 50px 80px;
-  }
-  .box-ola h4 {
+ }
+ .box-ola h4 {
     font-weight: bold;
     font-size: 38px;
     text-align: center;
     color: #252432;
     margin-top: 5px;
     margin-bottom: 0;
-  }
-  .box-model{
+}
+.box-model{
     display: flex;
     justify-content: space-around;
-  }
-  .box h3{
+}
+.box h3{
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
     margin-bottom: 0;
     margin-top: 50px;
-  }
-  .box p {
+}
+.box p {
     font-size: 20px;
     color: #00000077;
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+  /* section 3 card  */
+.card-section {
+   margin-top: 137px;
+   margin-bottom: 137px;
+}
+.card-title {
+   font-weight: bold;
+   font-size: 42px;
+   color: #252432;
+   text-align: center;
+   margin-bottom: 50px;
   }
+.card-container{
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+ }
+ .card {
+   padding: 20px;
+   background-color: #ffffffd4;
+   border-radius: 14px;
+ }
+.card-heading {
+   font-weight: bold;
+   font-size: 28px;
+   color: #252432e2;
+   margin-top: 24px;
+   margin-bottom: 0;
+}
+.card-description {
+   font-size: 18px;
+   font-weight: 450;
+   margin-top: 15px;
+   margin-bottom: 0;
+} 
+.card .reviewer img {
+   border-radius: 50%;
+   height: 50px;
+   margin-top: 20px;
+}
+.reviewer {
+   display: flex;
+   gap: 12px;
+   align-items: center;
+   margin-top: 0;
+}
+.reviewer-name {
+   font-weight: 600;
+   font-size: 20px;
+   color: #252432c6;
+   margin-bottom: 5px;
+}
+.date {
+   color: #25243277;
+   font-size: 20px;
+   margin-top: 0;
+}
