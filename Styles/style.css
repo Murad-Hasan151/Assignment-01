@@ -7,7 +7,15 @@
     font-size: 16px;
     font-weight: bold;
     border: none;
-} 
+    transition: 1.5s;
+}
+.btnhover:hover{
+   cursor: pointer;
+   color: #4E47FF;
+   background-color: white;
+   border: 1px solid #4E47FF;
+   transition: 1.5s;
+}  
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -44,7 +52,7 @@ nav h2 {
 
  /* banner style */
  .banner {
-    margin: 150px 267px;
+    margin: 100px 267px 130px;
     text-align: center;
  }
  .banner h1 {
